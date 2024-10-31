@@ -1,4 +1,43 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.nav {
+    display: inline-block;
+    height: 5%;
+    width: 100%;
+    background-color: rgba(171, 137, 86, 0.192);
+}
+
+img {
+    width: auto;
+    height: 5vh ;
+    border-radius: 100%;
+    margin-bottom: -2vh;
+    margin-inline: 1vh;
+    background-color: rgba(171, 137, 86, 0);
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    
+}
+
+
+.nav-item {
+    display:inline-block ;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 2.5%;
+    margin-inline: 4%;
+    
+} 

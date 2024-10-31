@@ -4,16 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css.style.root.css"/>
+    <link rel="icon" href="./icon.png" type="png"> 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Letmecook</title>
 </head>
 <body>
-    <header>
+    
+    <!-- <nav class="nav-content tab href-link">
         <nav>
-            <li>
-                <ol>home</ol>
-                <ol>about us</ol>
+        <h1><i class="fi fi-br-menu-burger"></i></h1>
+    </nav> -->
+    
+    <ul class="nav">
+            
+            <a href="#" id="icon home"><img src="./icon.png" type="png"></a>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+                <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
             </li>
-        </nav>
-    </header>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
+            </li>
+            <li>
+              <a onclick="TopNavBar.openMenu()" class=" nav-item tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">
+                Menu
+                <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+                <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+    </nav>
+
+
+
 </body>
 </html>
