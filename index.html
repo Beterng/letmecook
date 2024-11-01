@@ -14,40 +14,52 @@
         <nav>
         <h1><i class="fi fi-br-menu-burger"></i></h1>
     </nav> -->
-    
-    <ul class="nav">
-            
+    <nav>
+    <ul class="nav-row">
+
             <a href="#" id="icon home"><img src="./icon.png" type="png"></a>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Active
-                <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
-                <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link
-              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
-              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link
-              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
-              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled
-              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
-              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i></a>
-            </li>
-            <li>
-              <a onclick="TopNavBar.openMenu()" class=" nav-item tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">
-                Menu
+            <li class="nav-row-item">
+                <a onclick="TopNavBar.openMenu()" class="nav-row-item tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">Recipe
                 <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
                 <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
-              </a>
+            </a>
             </li>
+            <li class="nav-row-item">
+                <a onclick="TopNavBar.openMenu()" class=" nav-row-item tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">Price
+              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li class="nav-row-item">
+                <a onclick="TopNavBar.openMenu()" class=" nav-row-item tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">About us
+              <i class="fa fa-caret-down" style="font-size: 15px" aria-hidden="true"></i>
+              <i class="fa fa-caret-up" style="display: none; font-size: 15px" aria-hidden="true"></i>
+            </a>
+            </li>
+
+
+            <!-- <li class="">
+                <a onclick="TopNavBar.openMenu()" class="  tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">
+                    <i class="fa fa-duotone fa-solid fa-user" style="font-size: 48px; margin-top: 0px;" aria-hidden="true"></i>
+            </a>
+            </li> -->
+     
           </ul>
+
+    </nav>
+    <nav class="nav-row">
+        <li>
+            <a onclick="TopNavBar.openMenu()" class="nav-row-item tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" title="Menu" aria-label="Menu" role="button">
+              <i class="fa fa-gear" style="font-size: 15px" aria-hidden="true"></i>
+            </a>
+          </li>
     </nav>
 
+    <!-- <script>
+
+        document.getElementsByClassName("nav-row-item").addEventListener('click', function () {op.innerHTML = ta.innerHTML;}, false);
+        
+        </script> -->
 
 </body>
 </html>
