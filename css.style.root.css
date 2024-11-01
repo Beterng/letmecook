@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+
 }
 
 *, *:before, *:after {
@@ -10,34 +11,37 @@
 
 .nav {
     display: inline-block;
-    height: 5%;
+    height: 58px;
     width: 100%;
-    background-color: rgba(171, 137, 86, 0.192);
+    /* background-color: rgba(171, 137, 86, 0.192); */
 }
 
 img {
-    width: auto;
-    height: 5vh ;
+    width: 70px;
+    height: 70px ;
     border-radius: 100%;
-    margin-bottom: -2vh;
-    margin-inline: 1vh;
+    margin-top: -14px;
+    margin-inline: -10px;
     background-color: rgba(171, 137, 86, 0);
     padding: 8px 16px;
     float: left;
     width: auto;
     border: none;
-    display: block;
-    outline: 0;
-    
 }
 
 
-.nav-item {
+.nav-row .nav-row-item {
     display:inline-block ;
     align-items: center;
     text-align: center;
     align-content: center;
-    margin: 2.5%;
-    margin-inline: 4%;
-    
+    height: 58px;
+    width: 80px;
+    color: rgb(0, 0, 0);
+
 } 
+
+.nav-row .nav-row-item:hover {
+    background-color: rgb(255, 153, 0);
+    color: black;
+}
